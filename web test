@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMS Ascenseurs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <div class="header-container">
+            <h1>ADMS Ascenseurs</h1>
+            <p>Solutions d'ascenseurs innovantes et fiables pour tous vos besoins</p>
+        </div>
+    </header>
+
+    <!-- Section À Propos -->
+    <section id="about">
+        <h2>À Propos de Nous</h2>
+        <p>Depuis plus de 20 ans, ADMS Ascenseurs s’engage à fournir des services de qualité dans l'installation, la maintenance et la modernisation d'ascenseurs. Notre équipe d'experts est dédiée à offrir des solutions personnalisées pour assurer la sécurité, le confort et l'efficacité de vos déplacements verticaux.</p>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Installation</h3>
+                <p>ADMS Ascenseurs installe des ascenseurs adaptés aux besoins spécifiques de chaque bâtiment, que ce soit pour des immeubles résidentiels, commerciaux ou industriels.</p>
+            </div>
+            <div class="service-item">
+                <h3>Maintenance</h3>
+                <p>Notre service de maintenance garantit que vos ascenseurs restent fiables et sûrs, avec un suivi régulier et des interventions rapides en cas de besoin.</p>
+            </div>
+            <div class="service-item">
+                <h3>Modernisation</h3>
+                <p>Nous proposons des solutions de modernisation pour améliorer la performance, la sécurité et le design de vos installations existantes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section id="testimonials">
+        <h2>Témoignages de Nos Clients</h2>
+        <div class="testimonial">
+            <p>"L'équipe ADMS Ascenseurs est très professionnelle et réactive. Nous avons modernisé nos ascenseurs grâce à eux, et le résultat est excellent!"</p>
+            <span>- Marie Dupont, Gestionnaire d'Immeuble</span>
+        </div>
+        <div class="testimonial">
+            <p>"Le service de maintenance ADMS Ascenseurs est irréprochable. Ils interviennent rapidement et nos ascenseurs fonctionnent toujours parfaitement."</p>
+            <span>- Jean-Paul Martin, Responsable Technique</span>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez ADMS Ascenseurs</h2>
+        <p>Pour plus d’informations ou pour un devis, n’hésitez pas à nous contacter via le formulaire ci-dessous.</p>
+        <form action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2023 ADMS Ascenseurs. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
